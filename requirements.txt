@@ -1,0 +1,5 @@
+openai
+python-dotenv
+argparse
+PyPDF2
+python-docx 
