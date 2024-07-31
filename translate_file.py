@@ -57,7 +57,7 @@ def main():
 
     parser = argparse.ArgumentParser(description="Translate file content using an OpenAI model.")
     
-    parser.add_argument('--dest_lang', type=str, help='The destination language code')
+    parser.add_argument('--dest_lang', type=str, help='The destination language')
     parser.add_argument('--model', type=str, help='The OpenAI model to use')
     parser.add_argument('--input_file', type=str, help='The input file path')
     parser.add_argument('--output_file', type=str, help='The output file path')
